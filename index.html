@@ -559,13 +559,18 @@
         </button>
         <form class="modal-form">
           <p class="actioncall">Оставьте свои данные, мы вам перезвоним</p>
+
+          <!--FORM-->
           <div class="form-field">
             <label for="name" class="form-label">Имя</label>
-            <svg class="form-icon" width="12" height="12">
-              <use href="./image/sprite.svg#icon-vector"></use>
-            </svg>
-            <input type="text" name="name" id="name" />
+            <div class="inputsvg">
+              <input type="text" name="name" id="name" />
+              <svg class="form-icon" width="18" height="18">
+                <use href="./image/sprite.svg#form-men"></use>
+              </svg>
+            </div>
           </div>
+
           <div class="form-field">
             <label for="tel" class="form-label">Телефон</label>
             <!-- <svg>
@@ -582,7 +587,7 @@
           </div>
           <div class="form-field">
             <label for="comment" class="form-label">Комментарий</label>
-            <textarea name="" id="comment" rows="2"></textarea>
+            <textarea name="" id="comment" cols="30" rows="5"></textarea>
           </div>
           <div class="form-footer">
             <input type="checkbox" name="policy" value="" id="policy" />

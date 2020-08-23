@@ -564,8 +564,10 @@ form {
 }
 
 .form-field input {
+  width: 100%;
   height: 40px;
   margin: 0;
+  padding-left: 42px;
   padding-top: 12px;
   padding-bottom: 12px;
   border-radius: 4px;
@@ -578,6 +580,18 @@ form {
 textarea {
   resize: none;
 }
+.inputsvg {
+  position: relative;
+}
+
+.form-icon {
+  display: inline-block;
+  fill: #212121;
+  position: absolute;
+  left: 12px;
+  top: 11px;
+}
+
 .form-footer {
   display: flex;
 
