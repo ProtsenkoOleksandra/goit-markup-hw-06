@@ -523,7 +523,7 @@ body {
 
 form {
   width: 528px;
-  outline: 1px solid tomato;
+  /* outline: 1px solid tomato; */
 
   margin-left: auto;
   margin-right: auto;
@@ -549,7 +549,7 @@ form {
 .form-field {
   display: flex;
   flex-direction: column;
-  outline: 1px solid blue;
+  /* outline: 1px solid blue; */
   margin-bottom: 28px;
 }
 
