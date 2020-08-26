@@ -603,6 +603,7 @@ textarea {
 
 .form-footer {
   display: flex;
+  position: relative;
 
   width: 448px;
   margin-left: auto;
