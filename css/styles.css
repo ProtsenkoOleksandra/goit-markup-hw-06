@@ -659,6 +659,21 @@ textarea {
   pointer-events: none;
 }
 
+.checkbox:checked + .checkbox-icon {
+  background-color: #2196f3;
+  background-image: url("../images/modal-check-icon.svg")
+  background-size: contain;
+  background-origin: border-box;
+  border: 2px solid #2196f3;
+  border-radius: 2px;
+}
+.checkbox-focus:focus ~ .checkbox-icon {
+  border-color: #2196f3;
+}
+.checkbox:focus ~ .checkbox-icon {
+  border-color: #2196f3;
+}
+
 /* ADRESS SECTION*/
 
 .footer-flexbox {
