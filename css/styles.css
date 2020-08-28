@@ -778,6 +778,45 @@ textarea::placeholder {
   background-color: var(--acent-text-color);
 }
 
+/*FOOTER FORM*/
+
+footer-right {
+  display: inline-flex;
+  /*flex-basis: 570px;*/
+}
+
+.footer-right input {
+  width: 358px;
+  height: 50px;
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 16px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.button-icon {
+  fill: white;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+
+.footer-right button {
+  margin-left: 12px;
+}
+.footer-right button:hover {
+  cursor: pointer;
+}
+
 /*PORTFOLIO PAGE CSS*/
 
 .section-portfolio {
