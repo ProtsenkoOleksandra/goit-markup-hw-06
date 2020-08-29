@@ -784,7 +784,9 @@ footer-right {
   display: inline-flex;
   /*flex-basis: 570px;*/
 }
-
+.footer-right {
+  padding-left: 93px;
+}
 .footer-right input {
   width: 358px;
   height: 50px;
@@ -803,7 +805,32 @@ footer-right {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
+.sig {
+  margin-top: 0px;
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
 
+.button-footer {
+  border-radius: 4px;
+  padding: 10px 10px 10px 29px;
+  min-width: 200px;
+  border: 0px;
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  background-color: var(--acent-text-color);
+  color: var(--white-text-color);
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+}
 .button-icon {
   fill: white;
   vertical-align: middle;
@@ -813,6 +840,7 @@ footer-right {
 .footer-right button {
   margin-left: 12px;
 }
+
 .footer-right button:hover {
   cursor: pointer;
 }
