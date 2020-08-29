@@ -521,7 +521,7 @@ body {
 
 /*FORM*/
 
-form {
+.modal-form {
   width: 528px;
   /* outline: 1px solid tomato; */
 
