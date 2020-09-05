@@ -603,6 +603,27 @@ textarea::placeholder {
   position: relative;
 }
 
+.inputsvg:focus-within input {
+  border: 1px solid #2196f3;
+  outline: none;
+}
+
+.inputsvg:focus-within svg {
+  fill: #2196f3;
+}
+
+.form-field:focus-within textarea {
+  border: 1px solid #2196f3;
+  outline: none;
+}
+
+.form-field .inputsvg input,
+.form-field .inputsvg .form-icon,
+.form-field textarea {
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .form-icon {
   display: inline-block;
   fill: #212121;
